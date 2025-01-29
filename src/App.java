@@ -23,7 +23,17 @@ public class App {
         System.out.println("ingreso"+ result);
         result = empctrol.addEmpleado(new Empleado(1, "alexander", "senior"));
       System.out.println(result);
+
+empctrol.addEmpleado(new Empleado(2, "alexander", "joven"));
+empctrol.addEmpleado(new Empleado(3, "bryan", "joven"));
+empctrol.addEmpleado(new Empleado(4, "limber", "joven"));
+
       empctrol.displayEmpleados();
+
+empctrol.displayEmpleadosSoloNombres();
+empctrol.displayEmpleadosValue();
+empctrol.displayLlaves();
+
     }
 
     private static void runMapExamlpe() {
